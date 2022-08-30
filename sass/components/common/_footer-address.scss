@@ -24,7 +24,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $footer-contacts;
-
+    transition: color $animation-duration $animation-timing-function;
     .address-items__mail:hover &{
             color: $accentColor;
     }
@@ -38,6 +38,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $footer-contacts;
+    transition: color $animation-duration $animation-timing-function;
 
     .address-items__tel:hover & {
         color: $accentColor;
