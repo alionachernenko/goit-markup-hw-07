@@ -7,14 +7,12 @@
     padding: 200px 0;
     background-image:
         linear-gradient(to right, $hero-gradient, $hero-gradient),
-        url(.../image/heroimage.jpg);
+        url(/image/heroimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 1600px;
     margin: 0 auto;
-    background-color: $hero-footer-background-color;
-
 }
 
 .hero-title {
