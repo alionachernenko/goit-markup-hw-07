@@ -7,24 +7,10 @@
     text-transform: uppercase;
 }
 
-
-
-.social-link__icon {
-    @include social-link($icons-main-color);
-    width: 20px;
-    height: 20px;
-    transition: fill $animation-duration $animation-timing-function;
-
-    .social-link__container:hover &,
-    .social-link__container:focus & {
-        fill: $icons-secondary-color;
-    }
-}
-
 .social-link_icon__find-us {
     width: 20px;
     height: 20px;
-    @include social-link($icons-secondary-color)
+    @include socialIcon($icons-secondary-color);
 }
 
 .social-link_icon__find-us {

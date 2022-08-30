@@ -85,13 +85,13 @@
 }
 
 .social-link__icon {
+    @include socialIcon($icons-main-color);
     width: 20px;
     height: 20px;
-    fill: $icons-main-color;
     transition: fill $animation-duration $animation-timing-function;
 
     .social-link__container:hover &,
-    .social-link__container:focus &{
+    .social-link__container:focus & {
         fill: $icons-secondary-color;
-}
+    }
 }
