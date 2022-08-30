@@ -1,0 +1,27 @@
+.nav {
+    margin-left: 93px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav__items {
+    display: flex;
+    & :not(:last-child) {
+            margin-right: 50px;
+        }
+}
+
+.nav__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-decoration: none;
+    color: $mainColor;
+    transition: color $animation-duration $animation-timing-function;
+    
+    &:hover,
+    &:focus {
+    color: $accentColor;
+}
+}
+
