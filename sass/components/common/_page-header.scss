@@ -1,5 +1,5 @@
 .header {
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid $border-color;
 }
 
 .container__header {
@@ -16,8 +16,8 @@
     padding-bottom: 24px;
 }
 
-.nav__link--current {
-    color: var(--accent-color);
+.nav__link.nav__link--current {
+    color: $accentColor;
     position: relative;
 
     &::after {
@@ -27,7 +27,7 @@
         left: 0;
         width: 100%;
         height: 4px;
-        background-color: var(--accent-color);
+        background-color: $accentColor;
         border-radius: 2px;
         display: block;
     }

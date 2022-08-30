@@ -1,0 +1,45 @@
+.address-items {
+    margin-top: 20px;
+
+    & :not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-items__location {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $location-color;
+}
+
+
+.address-items__mail-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $footer-contacts;
+
+    .address-items__mail:hover &{
+            color: $accentColor;
+    }
+    
+}
+
+
+.address-items__tel-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $footer-contacts;
+
+    .address-items__tel:hover & {
+        color: $accentColor;
+    }
+}
