@@ -26,7 +26,7 @@
     color: $footer-contacts;
     transition: color $animation-duration $animation-timing-function;
     .address-items__mail:hover &{
-            color: $accentColor;
+            color: $accent-color;
     }
     
 }
@@ -41,6 +41,6 @@
     transition: color $animation-duration $animation-timing-function;
 
     .address-items__tel:hover & {
-        color: $accentColor;
+        color: $accent-color;
     }
 }

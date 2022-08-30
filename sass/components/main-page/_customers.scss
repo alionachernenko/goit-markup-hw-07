@@ -9,7 +9,7 @@
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: $mainColor;
+    color: $main-color;
     margin-bottom: 50px;
 }
 
@@ -32,7 +32,7 @@
 
     &:hover,
     &:focus {
-        border-color: $iconsHoverColor;
+        border-color: $icons-hover-color;
     }
 }
 
@@ -44,7 +44,7 @@
 
     .customer__container:hover &,
     .customer__container:focus & {
-        fill: $iconsHoverColor;
+        fill: $icons-hover-color;
     }
 }
 

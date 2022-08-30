@@ -19,7 +19,7 @@
 
     &:hover,
     &:focus {
-    color: $accentColor;
+    color: $accent-color;
 }
 }
 
@@ -32,7 +32,7 @@
 
     .contacts__link:hover &,
     .contacts__link:focus & {
-        fill: $iconsHoverColor;
+        fill: $icons-hover-color;
 }
 }
 
@@ -45,7 +45,7 @@
 
     .contacts__link:hover &,
     .contacts__link:focus & {
-        fill: $iconsHoverColor;
+        fill: $icons-hover-color;
 }
 }
 

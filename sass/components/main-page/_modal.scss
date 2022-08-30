@@ -57,7 +57,7 @@
     transition: fill $animation-duration $animation-timing-function;
 
     .close-button__modal:hover & {
-            fill: $accentColor;
+            fill: $accent-color;
         }
 }
 
@@ -68,7 +68,7 @@
     font-size: 20px;
     line-height: 1.15;
     letter-spacing: 0.03em;
-    color: $mainColor;
+    color: $main-color;
 }
 
 .modal-inputs {
@@ -97,7 +97,7 @@
     padding-left: 12px;
     transition: border $animation-duration $animation-timing-function;
     font-size: 12px;
-    color: $mainColor;
+    color: $main-color;
 
     &::placeholder {
         font-family: inherit;
@@ -109,7 +109,7 @@
     }
 
     &:focus {
-        border: 1px solid $accentColor;
+        border: 1px solid $accent-color;
         /* outline: none; */
     }
 
@@ -129,11 +129,11 @@
     left: 12px;
     width: 18px;
     height: 18px;
-    fill: $mainColor;
+    fill: $main-color;
     transition: fill $animation-duration $animation-timing-function;
 
     .modal-form__input:focus+& {
-        fill: $accentColor;
+        fill: $accent-color;
     }
 
 }
@@ -183,7 +183,7 @@ form {
     display: inline-block;
     width: 16px;
     height: 15px;
-    border: 2px solid $mainColor;
+    border: 2px solid $main-color;
     border-radius: 4px;
     background-image: none;
 
@@ -206,7 +206,7 @@ form {
 .submit-button {
     min-width: 200px;
     height: 50px;
-    background-color: $accentColor;
+    background-color: $accent-color;
     color: $main-button-color;
     font-family: inherit;
     font-weight: 700;
@@ -216,12 +216,12 @@ form {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    @include shadows(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     border: none;
     cursor: pointer;
 }
 
 .checkbox-container__conditions {
-    color: $accentColor;
+    color: $accent-color;
 }

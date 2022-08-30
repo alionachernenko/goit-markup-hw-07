@@ -1,0 +1,7 @@
+@mixin shadows($shadow) {
+    box-shadow: $shadow;
+}
+
+@mixin social-link($icon-color) {
+    fill: $icon-color;
+}
